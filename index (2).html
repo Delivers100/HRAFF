@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$HRAFF | Win a Real House</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --yellow: #FFCC00;
+      --accent: #FFA000;
+      --dark: #111;
+      --light: #fff;
+    }
+
+    * {
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+      background: var(--yellow);
+      padding: 4rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 90px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .cta {
+      background: var(--accent);
+      color: #111;
+      padding: 0.8rem 1.6rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: var(--dark);
+      z-index: 999;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--yellow);
+    }
+
+    section {
+      padding: 4rem 1.5rem;
+      max-width: 960px;
+      margin: auto;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.7s ease-out;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .grid > div {
+      flex: 1 1 45%;
+      background: #f6f6f6;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f1f1f1;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .grid { flex-direction: column; }
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="hraff-coin-icon.png" alt="$HRAFF Logo" />
+  <h1>$HRAFF - The House Raffle Token</h1>
+  <p>One Token. One House. One Winner.</p>
+  <a class="cta" href="https://pump.fun/coin/FKLDTbJipjjAorhT1FHiR6YcPovpCKz9DQYXZYunpump" target="_blank">Join the Raffle</a>
+</header>
+
+<nav>
+  <a href="#overview">Home</a>
+  <a href="#tokenomics">Tokenomics</a>
+  <a href="#roadmap">Roadmap</a>
+  <a href="#howtoenter">How to Enter</a>
+  <a href="#community">Community</a>
+  <a href="#faq">FAQ</a>
+</nav>
+
+<section id="overview">
+  <h2>🎯 Project Overview</h2>
+  <p>$HRAFF is a Solana-based raffle token where real value meets blockchain. At $100M market cap, one wallet will win a real $280,000 house in Florida. Our vision is long-term — build a cycle of value, reward consistent holders, and use Web3 to create real-world change.</p>
+</section>
+
+<section id="tokenomics">
+  <h2>📈 Tokenomics</h2>
+  <ul>
+    <li>1% Dev wallet (used only at $100M for raffle)</li>
+    <li>4% locked for future raffles</li>
+    <li>95% launched via bonding curve</li>
+    <li>No VCs, no private sales, 100% transparent</li>
+  </ul>
+</section>
+
+<section id="roadmap">
+  <h2>📍 Roadmap</h2>
+  <div class="grid">
+    <div><h3>Phase 1</h3><p>Launch token, bonding curve, Telegram & X announcement.</p></div>
+    <div><h3>Phase 2</h3><p>OG snapshot, 5 bonus entries, $1,000 early raffle.</p></div>
+    <div><h3>Phase 3</h3><p>Track entries through MC milestones up to $100M.</p></div>
+    <div><h3>Phase 4</h3><p>Raffle goes LIVE — 1 winner receives a $280K home.</p></div>
+    <div><h3>Phase 5</h3><p>Future raffles: 1% unlocks yearly if $100M MC is stable.</p></div>
+  </div>
+</section>
+
+<section id="howtoenter">
+  <h2>🏆 How to Enter</h2>
+  <ul>
+    <li>Buy $HRAFF at Pump.fun (see button above)</li>
+    <li>Hold required amounts at milestones:</li>
+    <ul>
+      <li>$100K = $100</li>
+      <li>$250K = $250</li>
+      <li>$1M = $500</li>
+      <li>$10M = $1,000</li>
+      <li>$50M = $1,000</li>
+      <li>$100M = $2,000 ✅</li>
+    </ul>
+    <li>Holding more = 2x, 3x, etc. multiplier entries</li>
+    <li>Winner picked LIVE at $100M</li>
+  </ul>
+</section>
+
+<section id="community">
+  <h2>💬 Community & Links</h2>
+  <ul>
+    <li>Telegram: <a href="https://t.me/houseraffleflorida" target="_blank">Join Group</a></li>
+    <li>X / Twitter: <a href="https://x.com/anaim10" target="_blank">@anaim10</a></li>
+    <li>Main Website: <a href="https://wesolara.com" target="_blank">WeSolara.com</a></li>
+    <li>Dexscreener: <a href="https://dexscreener.com/solana/fipsfdjdb38upo7dn4hnysdvmbjoepybtgllkcjsvvix" target="_blank">View Chart</a></li>
+    <li>Solscan: <a href="https://solscan.io/token/FKLDTbJipjjAorhT1FHiR6YcPovpCKz9DQYXZYunpump" target="_blank">Token Tracker</a></li>
+  </ul>
+</section>
+
+<section id="faq">
+  <h2>🙋 FAQ</h2>
+  <ul>
+    <li><strong>How do I win?</strong> — At $100M, a snapshot is taken and a wallet is chosen live.</li>
+    <li><strong>What happens after?</strong> — A real Florida home is transferred to your name, legally.</li>
+    <li><strong>Can I sell early?</strong> — Yes, but you’ll miss entries & milestones.</li>
+    <li><strong>Will more houses be raffled?</strong> — Yes! 1% unlocks yearly if $100M MC holds.</li>
+  </ul>
+</section>
+
+<div class="footer">
+  &copy; 2025 HRAFF. Powered by WeSolara. All rights reserved.
+</div>
+
+<script>
+  const sections = document.querySelectorAll("section");
+  const showOnScroll = () => {
+    sections.forEach(section => {
+      const top = section.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        section.classList.add("visible");
+      }
+    });
+  };
+  window.addEventListener("scroll", showOnScroll);
+  window.addEventListener("load", showOnScroll);
+</script>
+
+</body>
+</html>
